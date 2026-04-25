@@ -1,0 +1,8 @@
+name = "vtz1vpn"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "34606d80e48d41bd907e95af4ea16dc8" }
+]
